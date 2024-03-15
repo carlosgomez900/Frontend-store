@@ -226,7 +226,7 @@ h3 {
 
 /*Pagina del Producto*/
 @media (min-width: 768px) {
-    .camisa {
+    .camisa {  
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
@@ -234,12 +234,14 @@ h3 {
 }
 
 .formulario {
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 
 .formulario__campo {
+    width: min(60rem, 100%);
     /*border-color: var(--primarioObscuro);
     border-width: 1rem;
     border-style: solid; */ 
